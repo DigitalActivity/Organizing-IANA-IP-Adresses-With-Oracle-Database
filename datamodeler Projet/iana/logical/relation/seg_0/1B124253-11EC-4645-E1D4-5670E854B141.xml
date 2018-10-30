@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SousReseau" directorySegmentName="seg_0" id="1B124253-11EC-4645-E1D4-5670E854B141">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 01:42:13 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<sourcePk>383BCC06-CCD4-A68A-1517-60ACC0A474FE</sourcePk>
+<targetPk>383BCC06-CCD4-A68A-1517-60ACC0A474FE</targetPk>
+<identifying>false</identifying>
+<nameOnSource>contient</nameOnSource>
+<nameOnTarget>contenu</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5534BDFD-FF4C-A8F2-420F-B19C4BD845F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5534BDFD-FF4C-A8F2-420F-B19C4BD845F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

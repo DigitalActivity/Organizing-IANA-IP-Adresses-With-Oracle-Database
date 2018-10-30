@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="sigle" id="0141F31A-9439-D2FB-2362-D0CEE3150C5C">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:47:50 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date" id="0C3B813C-05F1-D01A-479B-5B77F27BB3A5">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:51:10 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Image" id="0FB02A7C-4EC2-005A-B9AB-16B452B53D9C">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-19 19:46:43 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT010</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Text200" id="125FE69D-E4C1-2E79-7941-4AC8FF7B8592">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:46:45 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Text50" id="4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:44:23 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Boolean" id="707D6929-15B1-D8EF-CEE9-4A57876E35F9">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-19 19:19:22 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Entier" id="80A5DA24-F347-C14E-1001-9EEF862270F3">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:45:12 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Text25" id="9DA324A4-D4E8-482D-367E-9EB0ED758EDC">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-19 19:44:04 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>25</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Text10" id="9FB02F60-7CAA-88F4-1A0B-6EB0ABA72F95">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:43:50 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Text100" id="A2D96523-CE3E-C38C-4D0B-EB48DBDCBAAD">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-10 01:44:48 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-01 02:00:26 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Decimal" id="F05AF9F3-354C-B5A2-0DC6-36F722E2B9FF">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-02-16 02:13:19 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

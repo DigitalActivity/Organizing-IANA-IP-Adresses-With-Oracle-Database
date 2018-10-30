@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5534BDFD-FF4C-A8F2-420F-B19C4BD845F6" name="Réseau">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:47:48 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_réseau" id="6DFD9F0C-01F8-9C07-A558-10EF23021DBC">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:48:00 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ip" id="02EB70E8-05FF-71BF-D17E-932E1143CC22">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:48:29 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DA324A4-D4E8-482D-367E-9EB0ED758EDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_bits" id="A66B73E2-1828-9564-3C30-9A291F791EEA">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:48:49 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_adresses" id="10B0F3FD-07F3-6F43-6151-238042B80BE6">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:49:03 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="début_range_ip" id="3E5D42A7-BB61-60F7-AE19-7A516499506F">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:49:20 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fin_range_ip" id="34B3E83F-07B6-D64C-F97B-46328977EDD8">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:50:00 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classe" id="DE6E0BA6-D9ED-BD65-9894-7ED7390D299E">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:50:39 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9FB02F60-7CAA-88F4-1A0B-6EB0ABA72F95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_réseau" id="195B117F-4257-414F-A913-626779D5F37B">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:51:01 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_rir" id="08145CB7-402F-7D93-70C4-7E923E8DC053">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 00:03:49 UTC</createdTime>
+<generatorID>45AAB13C-FD1B-56E8-131B-310BA86682E5</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>20C58CC9-32AA-7FBB-C3DD-C32E0D547565</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_lir" id="FC9D8D9A-2A68-C688-F459-E6AACAB3AE03">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 00:08:52 UTC</createdTime>
+<generatorID>A5D8D0E1-E3F6-83D3-C03C-01F2A1EFB8AE</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7B744252-AE02-8C18-990A-8F922487FC3D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_pir" id="C24A7E4A-4505-3EED-30DB-50FE4F460003">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 01:36:05 UTC</createdTime>
+<generatorID>05FA116F-03FB-90F1-D820-1D03EDDF6042</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0819B206-B499-437C-D797-72DD657E81A1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_réseau1" id="6B4B39B4-CACF-5BDB-FAFD-0172E9B7AF59">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 01:42:13 UTC</createdTime>
+<generatorID>1B124253-11EC-4645-E1D4-5670E854B141</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<referedAttribute>6DFD9F0C-01F8-9C07-A558-10EF23021DBC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="383BCC06-CCD4-A68A-1517-60ACC0A474FE" name="Réseau PK">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:48:15 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DFD9F0C-01F8-9C07-A558-10EF23021DBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

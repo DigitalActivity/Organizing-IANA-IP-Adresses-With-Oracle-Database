@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E527CE30-7276-2BD1-82B8-14CBF68FEBA0" name="Réseau">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>5534BDFD-FF4C-A8F2-420F-B19C4BD845F6</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<ordsAlias>reseau</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_réseau" id="7964E3A2-3ED7-2ED5-FD8E-23C91A739CB2">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>6DFD9F0C-01F8-9C07-A558-10EF23021DBC</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_bits" id="3DC5EED2-9F36-B155-783B-ED8D8110024D">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>A66B73E2-1828-9564-3C30-9A291F791EEA</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="début_range_ip" id="F8CAB207-8FCA-9794-ECFA-9A2E60A8CA2B">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>3E5D42A7-BB61-60F7-AE19-7A516499506F</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DA324A4-D4E8-482D-367E-9EB0ED758EDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fin_range_ip" id="087208A7-FD09-7A36-4FAA-3B77870456ED">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>34B3E83F-07B6-D64C-F97B-46328977EDD8</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DA324A4-D4E8-482D-367E-9EB0ED758EDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classe" id="E7E0CC5B-3A8E-D007-8162-1F2045BF51FC">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>DE6E0BA6-D9ED-BD65-9894-7ED7390D299E</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_réseau" id="85542049-A311-D513-1E06-27A763DCA541">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>195B117F-4257-414F-A913-626779D5F37B</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reg_regional_nom" id="2CE25591-098F-A1F2-9CA2-D410DF9EC605">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>08145CB7-402F-7D93-70C4-7E923E8DC053</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD43F734-DE33-98FE-A000-0443FAA41C1B" referredColumn="18C9072F-5E38-10BA-C754-4D1BD12A0664"/>
+</associations>
+</Column>
+<Column name="reg_local_nom" id="EB7B4923-831B-EE46-D467-AC7B413B386C">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>FC9D8D9A-2A68-C688-F459-E6AACAB3AE03</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC534393-8B46-B805-458B-49ECFDFD7471" referredColumn="98976CCB-077B-4191-572C-F7F2AF1169CE"/>
+</associations>
+</Column>
+<Column name="prop_privé_nom" id="2B8E6B33-7019-6710-C1CA-AE5CCBF43BE2">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>C24A7E4A-4505-3EED-30DB-50FE4F460003</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50922DB3-2075-D3B6-FA99-CFEF2114B889" referredColumn="6059A925-FEE3-B11B-9459-03520EE8BF86"/>
+</associations>
+</Column>
+<Column name="réseau_id_réseau" id="18FD631D-2410-A63F-DE23-782F852F7E7D">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>6B4B39B4-CACF-5BDB-FAFD-0172E9B7AF59</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7AA1178-D0E5-D0B5-5941-1581CA61A0F7" referredColumn="7964E3A2-3ED7-2ED5-FD8E-23C91A739CB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76D79925-14A0-38B5-FB88-A465213C04B6" name="réseau_pk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>383BCC06-CCD4-A68A-1517-60ACC0A474FE</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7964E3A2-3ED7-2ED5-FD8E-23C91A739CB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3F240B1-50F2-5F0D-0AC5-89A6115ADA83" name="réseau_reg_local_fk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>A5D8D0E1-E3F6-83D3-C03C-01F2A1EFB8AE</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB7B4923-831B-EE46-D467-AC7B413B386C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C91A70-1752-22CB-1F19-39E4BF20678F" name="réseau_prop_privé_fk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>05FA116F-03FB-90F1-D820-1D03EDDF6042</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B8E6B33-7019-6710-C1CA-AE5CCBF43BE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1591E438-3FBE-10FD-C69E-08BBA037C332" name="réseau_reg_regional_fk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>45AAB13C-FD1B-56E8-131B-310BA86682E5</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CE25591-098F-A1F2-9CA2-D410DF9EC605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB85AED9-2DB5-0FE3-B88A-9396053F5A19" name="réseau_sous_réseau_fk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>1B124253-11EC-4645-E1D4-5670E854B141</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18FD631D-2410-A63F-DE23-782F852F7E7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

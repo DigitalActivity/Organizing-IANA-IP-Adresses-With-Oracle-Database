@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0FE4E31-478B-1FB2-A0EA-17826D8E2D75" name="État_IANA">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>356E9B5D-6857-7B59-315F-2BE20C189631</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="58E32D26-2F06-79F5-5C1F-675E1E2BF5FA">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>2621A6EE-A912-F36E-79AC-C5BAC18737DD</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="état" id="3D741E99-0587-09C1-8C4E-D4103C4DAA54">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>D7454BE9-C5F5-A34F-41E9-EBE4A4BB1F87</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="utilisation" id="2547EF73-CA24-08D0-4937-5F6CC7F2E63B">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>4780E472-D96E-230E-E217-FDBB1FA4F916</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="réseau_id_réseau" id="23941CCD-5CB1-06E9-950E-0D2A0438B62C">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>AB2C6E10-A319-E301-975B-3C2ACF66316E</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7964E3A2-3ED7-2ED5-FD8E-23C91A739CB2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9637BDF-43AE-F537-C64E-7CE08C058CBB" referredColumn="7964E3A2-3ED7-2ED5-FD8E-23C91A739CB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DEAF1E1-60B6-3C5A-2580-67496AE2D785" name="état_pk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>A50ECA23-E491-34A9-4BE6-071801C7F181</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23941CCD-5CB1-06E9-950E-0D2A0438B62C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C373250C-1981-8BE1-72E0-C0929383EC60" name="état_réseau_fk">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-25 00:38:37 UTC</createdTime>
+<generatorID>208D1CDC-8D2F-266A-AB71-6168DBC81ED0</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23941CCD-5CB1-06E9-950E-0D2A0438B62C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

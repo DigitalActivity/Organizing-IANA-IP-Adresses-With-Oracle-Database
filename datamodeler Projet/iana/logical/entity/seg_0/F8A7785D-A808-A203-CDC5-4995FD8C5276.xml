@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8A7785D-A808-A203-CDC5-4995FD8C5276" name="Propriétaire_privé">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:56:45 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom_pir" id="0819B206-B499-437C-D797-72DD657E81A1">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:56:57 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse" id="F35B23EB-51B8-41F8-EFF6-FAAF8F4A26DF">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:57:10 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="siteweb" id="B575674F-7AC5-835E-FC2C-BE7BB817B9CB">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:57:19 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_lir" id="4853E48F-0576-D929-3FFB-9DAFE9413293">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 01:39:56 UTC</createdTime>
+<generatorID>194650F7-21CD-AE6A-AD4B-AC8E6823D5EE</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7B744252-AE02-8C18-990A-8F922487FC3D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F97E12C-4B5E-3A27-A7D8-AC30082ACEE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1A7E0E9-A848-35F3-D651-6FF5B3431943" name="PropriétairePrivé PK">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:57:09 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0819B206-B499-437C-D797-72DD657E81A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

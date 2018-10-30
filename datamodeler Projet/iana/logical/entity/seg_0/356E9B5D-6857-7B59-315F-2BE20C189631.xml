@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="356E9B5D-6857-7B59-315F-2BE20C189631" name="État_IANA">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:46:01 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date" id="2621A6EE-A912-F36E-79AC-C5BAC18737DD">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:46:29 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0C3B813C-05F1-D01A-479B-5B77F27BB3A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="état" id="D7454BE9-C5F5-A34F-41E9-EBE4A4BB1F87">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:46:48 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DA324A4-D4E8-482D-367E-9EB0ED758EDC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="utilisation" id="4780E472-D96E-230E-E217-FDBB1FA4F916">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-23 23:47:13 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9FB02F60-7CAA-88F4-1A0B-6EB0ABA72F95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_réseau" id="AB2C6E10-A319-E301-975B-3C2ACF66316E">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 00:01:54 UTC</createdTime>
+<generatorID>208D1CDC-8D2F-266A-AB71-6168DBC81ED0</generatorID>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<referedAttribute>6DFD9F0C-01F8-9C07-A558-10EF23021DBC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80A5DA24-F347-C14E-1001-9EEF862270F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A50ECA23-E491-34A9-4BE6-071801C7F181" name="État PK">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 00:03:36 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB2C6E10-A319-E301-975B-3C2ACF66316E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

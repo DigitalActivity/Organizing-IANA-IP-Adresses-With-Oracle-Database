@@ -1,0 +1,46 @@
+-- Étape10 Users
+
+
+
+---------------------------------------------------------------------------------------------------
+-- Créer User : Jérôme 
+CREATE USER Jérôme IDENTIFIED BY zxczxc;
+-- Connect et ressource 
+GRANT CONNECT, RESOURCE TO Jérôme;
+-- permettre toutes les operations
+GRANT SELECT, INSERT, UPDATE, DELETE ON IPWHOIS.Réseau TO Jérôme;
+GRANT SELECT, INSERT, UPDATE, DELETE ON IPWHOIS.Registraire_régional TO Jérôme;
+GRANT SELECT, INSERT, UPDATE, DELETE ON IPWHOIS.Registraire_local TO Jérôme;
+GRANT SELECT, INSERT, UPDATE, DELETE ON IPWHOIS.Propriétaire_privé TO Jérôme;
+GRANT SELECT, INSERT, UPDATE, DELETE ON IPWHOIS.État_iana TO Jérôme;
+---------------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------
+-- Créer Users : Mélissa
+CREATE USER Mélissa IDENTIFIED BY klmklm;
+-- Permettre de se se connecter
+GRANT CREATE SESSION to Mélissa;
+-- Permettre de faire select
+GRANT SELECT ON IPWHOIS.Réseau TO Mélissa;
+GRANT SELECT ON IPWHOIS.Registraire_régional TO Mélissa;
+GRANT SELECT ON IPWHOIS.Registraire_local TO Mélissa;
+GRANT SELECT ON IPWHOIS.Propriétaire_privé TO Mélissa;
+GRANT SELECT ON IPWHOIS.État_iana TO Mélissa;
+---------------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------
+-- Créer Users : Jules
+CREATE USER Jules IDENTIFIED BY klmklm;
+-- Permettre de se se connecter
+GRANT CREATE SESSION to Jules;
+-- Permettre de faire select
+GRANT SELECT ON IPWHOIS.Réseau TO Jules;
+GRANT SELECT ON IPWHOIS.Registraire_régional TO Jules;
+GRANT SELECT ON IPWHOIS.Registraire_local TO Jules;
+GRANT SELECT ON IPWHOIS.Propriétaire_privé TO Jules;
+GRANT SELECT ON IPWHOIS.État_iana TO Jules;
+

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PropriétéLP" directorySegmentName="seg_0" id="194650F7-21CD-AE6A-AD4B-AC8E6823D5EE">
+<createdBy>Admin</createdBy>
+<createdTime>2017-04-24 01:39:56 UTC</createdTime>
+<ownerDesignName>iana</ownerDesignName>
+<engineerTo>
+<item key="5716377F-D9A2-265C-BDE2-66E2EF476854" value="true"/>
+</engineerTo>
+<sourcePk>036D68B9-49B2-A791-8572-761A4DF769B2</sourcePk>
+<targetPk>B1A7E0E9-A848-35F3-D651-6FF5B3431943</targetPk>
+<identifying>false</identifying>
+<nameOnSource>proprio local</nameOnSource>
+<nameOnTarget>proprio privé</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5233B75E-A9B4-178A-F148-DB0E66405797</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8A7785D-A808-A203-CDC5-4995FD8C5276</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
